@@ -4673,6 +4673,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
+  
 }
 
 .card-deck .card {
