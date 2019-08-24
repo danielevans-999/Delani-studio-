@@ -5,6 +5,7 @@
     color:white;
     text-align:center;
     padding-top:245px;
+    margin-bottom:25px;
 }
 h2{
     padding-top:25px;
@@ -16,4 +17,13 @@ h2{
 #about{
     text-align:center;
 
+}
+
+#service{
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    color:white;
+    text-align:center;
+    padding:150px;
 }
