@@ -8,16 +8,7 @@ Delani studio project is a fictional studio's landingpage.
 
  # Behaviour Driven Development(BDD)
 
-   #### feature                    input                          output
-
-    what we do                  click on the icons              one can toggle between the icons and description
-
-    porfolio                    hover over the projects         white box appears with then name of the project
-
-    email                       input your information           A pop up message is sent to the user.
-
-
-
+  >feature:what we do , **input** click on the icons **output** one can toggle between the icons and their description
 
 ## Installing 
 
