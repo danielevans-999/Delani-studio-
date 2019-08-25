@@ -81,7 +81,9 @@ h2{
     display: flex;
     justify-content: center;
     height: 50px;
-    
-    
-    
+}
+p{
+
+    font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 }
