@@ -92,3 +92,70 @@ font-family: 'Source Sans Pro', sans-serif;
     padding-top:20px;
     display: none;
 }
+
+
+.first{
+    position:relative;
+    text-align: center;
+}
+.first:hover{
+    
+    opacity: 0.6;
+}
+
+
+.second:hover{
+ opacity: 0.6;
+}
+
+
+.third:hover{
+  
+    opacity: 0.6;
+}
+
+.fourth:hover{
+    
+    opacity: 0.6;
+}
+
+
+.fifth:hover{
+
+    opacity: 0.6;
+}
+
+.sixth:hover{
+  
+    opacity: 0.6;
+}
+
+
+.seventh:hover{
+
+    opacity: 0.6;
+}
+
+
+.eigth:hover{
+    
+    opacity:0.6 ;
+} 
+.overlay{
+    position: absolute;
+    border:2px;
+    left:70px;
+    bottom: 10px;
+    width: 150px;
+    height:200px;
+    width: 200px;
+    
+}
+
+#once,#twice,#thrice,#pourth,#pifth,#pisth,#peventh,#peigth{
+    display:none;
+  font-size:20px;
+  background-color: transparent; 
+  border-color: whitesmoke;
+  color:white;
+}
