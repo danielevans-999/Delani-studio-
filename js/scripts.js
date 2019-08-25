@@ -95,17 +95,19 @@ $(".eigth").hover(function() {
 });
 //collect user data  use  interface logic
 
-$("#end").click(function(){
-    var name=$("#name").val();
-    var email=$("#email").val();
-    var comment=$("#message").val();
-    
-    if ($('#name').val() && $('#email').val() && $("#message").val() == '') {
-      alert('please fill the form');
-      return false;
-    }
-    else{
-  
-  alert("Hi" +name +";"+" your mesage has been recived.Thank you for your feedback.");
-    }
-  });
+$("#end").click(function(event) {
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var textarea = $("#styled").val();
+
+  if ($("#name").val() == "") {
+    alert("No blanks");
+  } else if ($("#email").val() == "") {
+    alert("No blanks");
+  } else if ($("#message").val() == "") {
+    alert("no blanks");
+  } else {
+    alert(name + " " + "your feedback has been recived thanks for reaching us");
+  }
+  event.preventDefault();
+});
