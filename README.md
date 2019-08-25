@@ -16,9 +16,9 @@ Delani studio project is a fictional studio's landingpage.
 
 ## Installing 
 
-To view the website go to [click here]()
+To view the website go to [click here](https://github.com/danielevans-999/Delani-studio-)
 
-- Step 1: Clone this repo :git clone ()
+- Step 1: Clone this repo :git clone (https://github.com/danielevans-999/Delani-studio-)
 
 - step 2: Open the repo using your text editor e.g atom or code
 
