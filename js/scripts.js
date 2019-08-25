@@ -93,3 +93,19 @@ $(".eigth").hover(function() {
     $("#peigth").hide();
   });
 });
+//collect user data  use  interface logic
+
+$("#end").click(function(){
+    var name=$("#name").val();
+    var email=$("#email").val();
+    var comment=$("#message").val();
+    
+    if ($('#name').val() && $('#email').val() && $("#message").val() == '') {
+      alert('please fill the form');
+      return false;
+    }
+    else{
+  
+  alert("Hi" +name +";"+" your mesage has been recived.Thank you for your feedback.");
+    }
+  });
