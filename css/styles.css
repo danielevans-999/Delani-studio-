@@ -87,3 +87,8 @@ p{
     font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 }
+#designs,#develop,#product{
+    text-align: center;
+    padding-top:20px;
+    display: none;
+}
