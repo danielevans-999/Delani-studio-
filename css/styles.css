@@ -50,3 +50,29 @@ h2{
     width: 90%;
     margin:auto;
 }
+
+#contact{
+    color:white;
+    text-align: center;
+}
+#name,#email{
+    background-color: transparent;
+    width: 400px;
+    padding: 5px;
+    
+  
+}
+::placeholder{
+    color:white
+}
+#comment{
+    padding-top:25px;
+}
+#message{
+    width:750px;
+    height: 200px;
+    background-color: transparent;
+    padding-top:0px;
+    color:white;
+    padding:5px;
+}
