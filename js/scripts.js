@@ -46,50 +46,50 @@ $(".second").hover(function() {
   });
 });
 $(".third").hover(function() {
-    $(".third").mouseenter(function() {
-      $("#thrice").show();
-    });
-    $(".third").mouseleave(function() {
-      $("#thrice").hide();
-    });
+  $(".third").mouseenter(function() {
+    $("#thrice").show();
   });
-  $(".fourth").hover(function() {
-    $(".fourth").mouseenter(function() {
-      $("#pourth").show();
-    });
-    $(".fourth").mouseleave(function() {
-      $("#pourth").hide();
-    });
+  $(".third").mouseleave(function() {
+    $("#thrice").hide();
   });
-  $(".fifth").hover(function() {
-    $(".fifth").mouseenter(function() {
-      $("#pifth").show();
-    });
-    $(".fifth").mouseleave(function() {
-      $("#pifth").hide();
-    });
+});
+$(".fourth").hover(function() {
+  $(".fourth").mouseenter(function() {
+    $("#pourth").show();
   });
-  $(".sixth").hover(function() {
-    $(".sixth").mouseenter(function() {
-      $("#pisth").show();
-    });
-    $(".sixth").mouseleave(function() {
-      $("#pisth").hide();
-    });
+  $(".fourth").mouseleave(function() {
+    $("#pourth").hide();
   });
-  $(".seventh").hover(function() {
-    $(".seventh").mouseenter(function() {
-      $("#peventh").show();
-    });
-    $(".seventh").mouseleave(function() {
-      $("#peventh").hide();
-    });
+});
+$(".fifth").hover(function() {
+  $(".fifth").mouseenter(function() {
+    $("#pifth").show();
   });
-  $(".eigth").hover(function() {
-    $(".eigth").mouseenter(function() {
-      $("#peigth").show();
-    });
-    $(".eigth").mouseleave(function() {
-      $("#peigth").hide();
-    });
+  $(".fifth").mouseleave(function() {
+    $("#pifth").hide();
   });
+});
+$(".sixth").hover(function() {
+  $(".sixth").mouseenter(function() {
+    $("#pisth").show();
+  });
+  $(".sixth").mouseleave(function() {
+    $("#pisth").hide();
+  });
+});
+$(".seventh").hover(function() {
+  $(".seventh").mouseenter(function() {
+    $("#peventh").show();
+  });
+  $(".seventh").mouseleave(function() {
+    $("#peventh").hide();
+  });
+});
+$(".eigth").hover(function() {
+  $(".eigth").mouseenter(function() {
+    $("#peigth").show();
+  });
+  $(".eigth").mouseleave(function() {
+    $("#peigth").hide();
+  });
+});
