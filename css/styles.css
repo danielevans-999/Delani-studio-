@@ -1,162 +1,154 @@
-.firstpage{
-    background-image: url(../assets/backgrounds/h_img.jpg);
-    background-size:cover;
-    height: 750px;
-    color:white;
-    text-align:center;
-    padding-top:245px;
-    margin-bottom:25px;
+.firstpage {
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  height: 750px;
+  color: white;
+  text-align: center;
+  padding-top: 245px;
+  margin-bottom: 25px;
 }
-h2{
-    padding-top:25px;
+h2 {
+  padding-top: 25px;
 }
-#mouse{
-    padding-top:200px;
-}
-
-#about{
-    text-align:center;
-
+#mouse {
+  padding-top: 200px;
 }
 
-#service{
-    background-image: url('../assets/backgrounds/s_image.jpg');
-    background-repeat: no-repeat;
-    height: 300px;
-    color:white;
-    text-align:center;
-    padding:150px;
-}
-#whatwedo{
-    text-align: center;
-    padding-top:30px;
+#about {
+  text-align: center;
 }
 
-.row{
-    padding-bottom: 25px;
+#service {
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding: 150px;
 }
-#portfolio{
-    text-align: center;
-}
-.container2{
-    width: 90%;
-    margin:auto;
-}
-#contact{
-    background-image: url(../assets/backgrounds/c_image.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 450px;
-    width: 90%;
-    margin:auto;
+#whatwedo {
+  text-align: center;
+  padding-top: 30px;
 }
 
-#contact{
-    color:white;
-    text-align: center;
-    margin-bottom: 20px;
+.row {
+  padding-bottom: 25px;
 }
-#name,#email{
-    background-color: transparent;
-    width: 40%;
-    padding: 5px;
-    color: white;
-    
-  
+#portfolio {
+  text-align: center;
 }
-::placeholder{
-    color:white
+.container2 {
+  width: 90%;
+  margin: auto;
 }
-#comment{
-    padding-top:25px;
-}
-#message{
-    width:75%;
-    height: 200px;
-    background-color: transparent;
-    padding-top:0px;
-    color:white;
-    padding:5px;
-}
-.socialinks{
-    display: flex;
-    justify-content: center;
-    height: 50px;
-}
-p{
-
-    font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-}
-#designs,#develop,#product{
-    text-align: center;
-    padding-top:20px;
-    display: none;
+#contact {
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 90%;
+  margin: auto;
 }
 
-
-.first{
-    position:relative;
-    text-align: center;
+#contact {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.first:hover{
-    
-    opacity: 0.6;
+#name,
+#email {
+  background-color: transparent;
+  width: 40%;
+  padding: 5px;
+  color: white;
 }
-
-
-.second:hover{
- opacity: 0.6;
+::placeholder {
+  color: white;
 }
-
-
-.third:hover{
-  
-    opacity: 0.6;
+#comment {
+  padding-top: 25px;
 }
-
-.fourth:hover{
-    
-    opacity: 0.6;
+#message {
+  width: 75%;
+  height: 200px;
+  background-color: transparent;
+  padding-top: 0px;
+  color: white;
+  padding: 5px;
 }
-
-
-.fifth:hover{
-
-    opacity: 0.6;
+.socialinks {
+  display: flex;
+  justify-content: center;
+  height: 50px;
 }
-
-.sixth:hover{
-  
-    opacity: 0.6;
+p {
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
-
-
-.seventh:hover{
-
-    opacity: 0.6;
-}
-
-
-.eigth:hover{
-    
-    opacity:0.6 ;
-} 
-.overlay{
-    position: absolute;
-    border:2px;
-    left:70px;
-    bottom: 10px;
-    width: 150px;
-    height:200px;
-    width: 200px;
-    
+#designs,
+#develop,
+#product {
+  text-align: center;
+  padding-top: 20px;
+  display: none;
 }
 
-#once,#twice,#thrice,#pourth,#pifth,#pisth,#peventh,#peigth{
-    display:none;
-  font-size:20px;
-  background-color: transparent; 
+.first {
+  position: relative;
+  text-align: center;
+}
+.first:hover {
+  opacity: 0.6;
+}
+
+.second:hover {
+  opacity: 0.6;
+}
+
+.third:hover {
+  opacity: 0.6;
+}
+
+.fourth:hover {
+  opacity: 0.6;
+}
+
+.fifth:hover {
+  opacity: 0.6;
+}
+
+.sixth:hover {
+  opacity: 0.6;
+}
+
+.seventh:hover {
+  opacity: 0.6;
+}
+
+.eigth:hover {
+  opacity: 0.6;
+}
+.overlay {
+  position: absolute;
+  border: 2px;
+  left: 70px;
+  bottom: 10px;
+  width: 150px;
+  height: 200px;
+  width: 200px;
+}
+
+#once,
+#twice,
+#thrice,
+#pourth,
+#pifth,
+#pisth,
+#peventh,
+#peigth {
+  display: none;
+  font-size: 20px;
+  background-color: transparent;
   border-color: whitesmoke;
-  color:white;
+  color: white;
 }
