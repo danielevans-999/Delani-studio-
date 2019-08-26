@@ -16,6 +16,7 @@ h2 {
 
 #about {
   text-align: center;
+  
 }
 
 #service {
@@ -25,6 +26,7 @@ h2 {
   color: white;
   text-align: center;
   padding: 150px;
+  padding-bottom: 50px;
 }
 #whatwedo {
   text-align: center;
@@ -92,63 +94,64 @@ p {
   padding-top: 20px;
   display: none;
 }
-
-.first {
-  position: relative;
-  text-align: center;
-}
-.first:hover {
-  opacity: 0.6;
+/* portfolio styling */
+.footer{
+    text-align: center;
+    padding-top:20px;
 }
 
-.second:hover {
-  opacity: 0.6;
+.overlay{
+    position: absolute;
+    border:2px;
+    left:70px;
+    bottom: 10px;
+    width: 150px;
+    height:200px;
+    width: 200px;
+}
+.first{
+    position: relative;
+    text-align: center;
+}
+.first:hover{
+  
+    background-color: black;
+    opacity:0.7
+}
+.second:hover{
+  
+    background-color: black;
+    opacity:0.7
+}
+.third:hover{
+    background-color: black;
+    opacity:0.7
+}
+.fourth:hover{
+    background-color: black;
+    opacity:0.7
+}
+.fifth:hover{
+    background-color: black;
+    opacity:0.7
+}
+.sixth:hover{
+    background-color: black;
+    opacity:0.7
+}
+.seventh:hover{
+    background-color: black;
+    opacity:0.7
+}
+.eigth:hover{
+    background-color: black;
+    opacity:0.7
 }
 
-.third:hover {
-  opacity: 0.6;
-}
-
-.fourth:hover {
-  opacity: 0.6;
-}
-
-.fifth:hover {
-  opacity: 0.6;
-}
-
-.sixth:hover {
-  opacity: 0.6;
-}
-
-.seventh:hover {
-  opacity: 0.6;
-}
-
-.eigth:hover {
-  opacity: 0.6;
-}
-.overlay {
-  position: absolute;
-  border: 2px;
-  left: 70px;
-  bottom: 10px;
-  width: 150px;
-  height: 200px;
-  width: 200px;
-}
-
-#once,
-#twice,
-#thrice,
-#pourth,
-#pifth,
-#pisth,
-#peventh,
-#peigth {
-  display: none;
-  font-size: 20px;
-  background-color: transparent;
-  border-color: whitesmoke;
-  color: white;
+#once,#twice,#thrice,#pourth,#pifth,#pisth,#peventh#peigth{
+    display:none;
+    font-size:20px;
+    background-color: transparent;
+     border-color:whitesmoke;
+     color:white;
 }
